@@ -81,6 +81,14 @@ const data: Project[] = [
     source: "https://github.com/Fardeen26/wanderlust_app",
   },
   {
+    logo: '/top-50.png',
+    title: "Life50",
+    description: "Life50 curates the top 50 life-changing books, habits, tools, and more—chosen by the internet and you. Share, upvote, and add what has transformed your life to inspire others.",
+    techStack: ["Next.js", "Supabase", "TypeScript", "Zod", "Tailwind CSS"],
+    link: "https://life50.fardeen.tech",
+    source: "https://github.com/Fardeen26/life50",
+  },
+  {
     logo: '/codify.png',
     title: "Codify",
     description: "Codify transforms your source code into stunning, shareable images with customizable themes, fonts, and backgrounds—perfect for developers and tutorials.",
@@ -88,12 +96,4 @@ const data: Project[] = [
     link: "https://codify.fardeen.tech",
     source: "https://github.com/Fardeen26",
   },
-  {
-    logo: '/f-1.png',
-    title: "Portfolio",
-    description: "A portfolio crafted and developed by me, showcasing my skills, projects, and passion for web development",
-    techStack: ["Next.js", "Prisma", "PostgreSQL", "NextAuth", "TipTap Editor", "Resend", "Cloudinary", "Zod", "framer-motion", "Tailwind CSS"],
-    link: "https://fardeen.tech",
-    source: "https://github.com/Fardeen26/portfolio",
-  }
 ];
