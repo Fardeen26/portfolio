@@ -22,7 +22,7 @@ async function BlogList() {
     const blogs = await getBlogs();
 
     return (
-        <div className='w-full px-64 max-[1025px]:px-0 max-[1285px]:px-0 max-sm:px-2 flex flex-col gap-10 items-center mt-4 pb-8'>
+        <div className='w-full px-64 max-[1025px]:px-0 max-[1285px]:px-0 max-sm:px-2 flex flex-col gap-6 items-center mt-4 pb-8'>
             {blogs.map((blog: Blog, idx: number) => (
                 <BlogCard
                     key={idx}

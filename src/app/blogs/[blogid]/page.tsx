@@ -44,7 +44,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
                     readingTime={readingTime}
                 />
 
-                <div className="mt-10">
+                <div className="mt-8">
                     <BlogPage public_id={blog.image_public_id} />
                 </div>
 

@@ -10,9 +10,9 @@ interface BlogHeaderProps {
 
 export default function BlogHeader({ author, createdAt, readingTime }: BlogHeaderProps) {
     return (
-        <div className="mt-5 flex items-center gap-2">
+        <div className="mt-4 flex items-center gap-2">
             <Avatar
-                src="/fardeen.jpg"
+                src="/space.jpeg"
                 fallback="A"
                 radius='full'
                 size='2'

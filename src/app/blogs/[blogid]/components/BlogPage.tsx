@@ -14,7 +14,7 @@ const BlogPage = ({ public_id }: PublicId) => {
             height="900"
             src={public_id}
             sizes="100vw"
-            alt="Description of my image"
+            alt="Blog Image"
             radius="10"
         />
     )
