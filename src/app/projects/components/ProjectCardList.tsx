@@ -41,6 +41,14 @@ const data: Project[] = [
     source: "https://github.com/Fardeen26/enrich-salon-management",
   },
   {
+    logo: '/flick-ai.png',
+    title: "Flick.AI",
+    description: "An AI-Powered tool designed to refine your tweets with full customizations and make them stand out—because GPT just doesn’t get it.",
+    techStack: ["Next.js", "TypeScript", "Google Gemini", "Prisma", "PostgreSQL", "NextAuth", "Tailwind CSS"],
+    link: "https://flick-ai.fardeen.tech/",
+    source: "https://github.com/Fardeen26/flick-ai",
+  },
+  {
     logo: '/token-2.png',
     title: "OrbitToken",
     description: "An decentralized platform enables users launch their custom tokens, transfer tokens, view token balances, transfer SOL, and check account balances.",
@@ -57,14 +65,6 @@ const data: Project[] = [
     source: "https://github.com/Fardeen26/ghostgram",
   },
   {
-    logo: "/book-1.png",
-    title: "Lexicon",
-    description: "Lexicon is a platform for discovering, downloading, and uploading books with a clean, user-friendly interface, working on auth and review functionality.",
-    techStack: ["Next.js", "Typescript", "NextAuth", "framer-motion", "MongoDB", "Tailwind CSS", "Shadcn", "Zod"],
-    link: "https://lexicon.fardeen.tech",
-    source: "https://github.com/Fardeen26/lexicon",
-  },
-  {
     logo: "/chat-icon.png",
     title: "The Chat Haven",
     description: "The Chat Haven is a chat application that allows users to create & join room and send & receive messages in real-time.",
@@ -73,12 +73,12 @@ const data: Project[] = [
     source: "https://github.com/Fardeen26/chat-app",
   },
   {
-    logo: '/gobegin-5.png',
-    title: "GoBegin - Travel Application",
-    description: "GoBegin is a platform where users can list residences, view details of available listings, add reviews, and see locations on a map—similar to Airbnb",
-    techStack: ["Node.js", "Express.js", "MongoDB", "passport.js", "cloudinary", "Bootstrap"],
-    link: "https://gobegin.fardeen.tech/listings",
-    source: "https://github.com/Fardeen26/wanderlust_app",
+    logo: "/book-1.png",
+    title: "Lexicon",
+    description: "Lexicon is a platform for discovering, downloading, and uploading books with a clean, user-friendly interface, working on auth and review functionality.",
+    techStack: ["Next.js", "Typescript", "NextAuth", "framer-motion", "MongoDB", "Tailwind CSS", "Shadcn", "Zod"],
+    link: "https://lexicon.fardeen.tech",
+    source: "https://github.com/Fardeen26/lexicon",
   },
   {
     logo: '/top-50.png',
