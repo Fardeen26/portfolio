@@ -10,21 +10,21 @@ import ConditionalFooter from "./ConditionalFooter";
 import Provider from "@/context/Provider";
 
 export const metadata: Metadata = {
-  title: "Fardeen Mansoori - Full Stack Developer",
-  description: "Fardeen Mansoori is a Full Stack Developer specializing in building impactful web applications from scratch. Explore my portfolio to see my projects and skills.",
+  title: "fardeen",
+  description: "Fardeen Mansoori is a Full Stack Developer specializing in building impactful web applications from scratch. Explore his portfolio to see my projects and skills.",
   keywords: "Fardeen Mansoori, Full Stack Developer, Web Developer, Portfolio, JavaScript, TypeScript, React, Node.js, software engineer",
   authors: [{ name: "Fardeen Mansoori" }],
   openGraph: {
-    title: "Fardeen Mansoori - Full Stack Developer",
+    title: "fardeen",
     description: "Explore the portfolio of Fardeen Mansoori, showcasing innovative web applications and development skills.",
-    url: "https://fardeenmansoori.vercel.app",
-    siteName: "Fardeen Mansoori Portfolio",
+    url: "https://fardeen.tech",
+    siteName: "fardeen",
     images: [
       {
-        url: "https://ucarecdn.com/ed06f135-d3a8-473d-8057-c7bf634be79b/-/preview/1000x996/",
+        url: "https://res.cloudinary.com/dl27j0qcm/image/upload/v1739721063/gradii-3840x2160_3_jqk2nt.png",
         width: 400,
-        height: 400,
-        alt: "Fardeen Mansoori Portfolio",
+        height: 200,
+        alt: "fardeen",
       },
     ],
     type: "website",
