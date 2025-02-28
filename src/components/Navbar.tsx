@@ -55,7 +55,7 @@ const Navbar = () => {
 
                     <Separator orientation='vertical' size={{ sm: '1', lg: '2', xl: '2' }} className='bg-black dark:bg-gray-400' />
 
-                    <Link href="https://drive.google.com/file/d/1RFyHIwq0xZJrIqj3t0xsdCSt04sY_1Cv/view?usp=sharing" target='_blank' underline='none'>
+                    <Link href="https://fardeen.tech" target='_blank' underline='none'>
                         <Tooltip content="Resume">
                             <div className='hover:px-3 max-sm:hover:px-2 py-2.5 dark:hover:bg-[#262626] hover:bg-[#F4F4F5] rounded-full transition-all duration-300'>
                                 <FileIcon className='w-[19px] h-[19px] max-sm:h-[15px] max-sm:w-[15px] text-black dark:text-white' />
