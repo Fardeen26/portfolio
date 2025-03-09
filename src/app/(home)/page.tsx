@@ -64,11 +64,11 @@ export default function Home() {
       </div>
 
       <div className="w-full flex justify-center mt-4">
-        <Experience company_link={"https://x.com/fardeen14693425"} company_logo={"/stealth-startup.jpeg"} company_name={"Stealth Startup"} duration={"Feb 2024 - June 2024"} job_title={"Teaching Assistant (MERN Stack)"} description={"Mentored over 5,000 students in MERN Stack development, resolving 500+ coding issues and improving understanding. Achieved an average rating of 4.75 for effective teaching and support."} />
+        <Experience />
       </div>
 
       <div className="w-full flex justify-center mt-4">
-        <Education institute_link={"https://www.uok.ac.in/"} institute_logo={"/uok.gif"} course_title={"Bachelors of Computer Application"} ending_date={"Expected July 2025"} institute_name={"University of Kota"} cgpa={8.5} description={"Currently pursuing a BCA degree, focusing on software development, web technologies, and programming languages. Maintaining a CGPA of 8.5, with coursework in data structures, operating systems, DBMS, computer networks."} />
+        <Education />
       </div>
 
       <div className="w-full flex justify-center mt-4">
