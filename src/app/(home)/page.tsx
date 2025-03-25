@@ -10,8 +10,8 @@ import Coursework from "@/components/Coursework";
 import { inter, bricolage_grotesque } from '@/utils/fonts';
 import Contact from "@/components/Contact";
 import { motion } from "framer-motion"
-import { GithubGraph } from "@/components/ui/github";
-import Title from "@/components/ui/Title";
+// import { GithubGraph } from "@/components/ui/github";
+// import Title from "@/components/ui/Title";
 import Link from "next/link";
 
 export default function Home() {
@@ -48,7 +48,7 @@ export default function Home() {
         <ProjectCardList />
       </div>
 
-      <div className="w-full flex flex-col items-center mt-8 mb-4 gap-4 max-sm:hidden">
+      {/* <div className="w-full flex flex-col items-center mt-8 mb-4 gap-4 max-sm:hidden">
         <Title title="GitHub Contributions" />
         <Link href={'https://github.com/Fardeen26'} target="_blank">
           <GithubGraph
@@ -57,7 +57,7 @@ export default function Home() {
             colorPallete={["#1e1e2f", "#5a3e7a", "#7e5aa2", "#a87cc3", "#d9a9e6"]}
           />
         </Link>
-      </div>
+      </div> */}
 
       <div className="w-full flex justify-center mt-4">
         <Skills />
