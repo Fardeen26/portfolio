@@ -12,8 +12,9 @@ const Experience = () => {
     const { isDarkMode } = useDarkMode();
     return (
         <div className='w-1/2 max-lg:w-full max-lg:px-20 max-sm:w-full max-sm:px-5 flex flex-col items-center mt-4 pb-8'>
-            <Title title='Experience' />
-            <br />
+            <span className='mb-3'>
+                <Title title='Experience & Achievements' />
+            </span>
             {
                 experienceData.map((exp: I_Experience, idx) => (
                     <MagicCard key={idx} className="cursor-pointer h-fit dark:shadow-2xl !bg-transparent border-none" gradientColor={`${isDarkMode ? '#262626' : 'rgba(197, 241, 241, 0.4)'}`}>
