@@ -110,6 +110,23 @@ const data: Project[] = [
     description: "Codify transforms your source code into stunning, shareable images with customizable themes, fonts, and backgrounds—perfect for developers and tutorials.",
     techStack: ["Next.js", "TypeScript", "Shadcn", "Tailwind CSS"],
     link: "https://codify.fardeen.tech",
-    source: "https://github.com/Fardeen26",
+    source: "https://github.com/Fardeen26/Codify",
   },
+  {
+    logo: '/malfoy.png',
+    title: "SaaS Landing Page",
+    description: "Crafted this high-conversion SaaS landing page for a startup, focusing on clean design, user experience, and optimized performance to drive user engagement.",
+    techStack: ["Next.js", "TypeScript", "Shadcn", "motion", "Tailwind CSS"],
+    link: "https://malfoy.fardeen.tech",
+    source: "https://github.com/Fardeen26/malfoy",
+  },
+  {
+    logo: '/sumzsvg.svg',
+    title: "SumZ - Article Summarizer",
+    description: "SumZ is an article summarizer that quickly generates concise summaries of lengthy articles, helping users grasp key points efficiently. It's designed for speed and accuracy with user-friendly interface.",
+    techStack: ["React", "Redux", "Open AI", "Tailwind CSS"],
+    link: "https://sumz.fardeen.tech/",
+    source: "https://github.com/Fardeen26/Article-Summarizer",
+  },
+
 ];
