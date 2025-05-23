@@ -8,6 +8,7 @@ import Contact from "@/components/Contact"
 import { motion } from "framer-motion"
 import HeroSection from "@/components/HeroSection"
 import GitGraph from "./components/GitGraph"
+import AddOnProjects from "@/components/AddOnProjects"
 
 export default function Home() {
   return (
@@ -23,6 +24,10 @@ export default function Home() {
 
       <div className="w-full flex justify-center">
         <ProjectCardList />
+      </div>
+
+      <div className="w-full flex justify-center">
+        <AddOnProjects />
       </div>
 
       <GitGraph />

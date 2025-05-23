@@ -59,7 +59,7 @@ const data: Project[] = [
   {
     logo: '/flick-ai.png',
     title: "Flick.AI",
-    description: "An AI-Powered tool designed to refine your tweets with full customizations and make them stand out—because GPT just doesn’t get it.",
+    description: "An AI-Powered tool with 200+ users designed to refine your tweets with full customizations and make them stand out—because GPT just doesn’t get it.",
     techStack: ["Next.js", "TypeScript", "Google Gemini", "Prisma", "PostgreSQL", "NextAuth", "Tailwind CSS"],
     link: "https://flick-ai.fardeen.tech/",
     source: "https://github.com/Fardeen26/flick-ai",
@@ -113,6 +113,15 @@ const data: Project[] = [
     source: "https://github.com/Fardeen26/Codify",
   },
   {
+    logo: '/memehub.png',
+    title: "MemeHub",
+    description: "MemeHub is a meme generator that allows users to create and share memes with a user-friendly interface and a wide range of templates.",
+    techStack: ["Next.js", "Typescript", "framer-motion", "Tailwind CSS", "Magic UI"],
+    link: "https://memehub.fardeen.tech",
+    source: "https://github.com/Fardeen26/meme-generator",
+  },
+
+  {
     logo: '/malfoy.png',
     title: "SaaS Landing Page",
     description: "Crafted this high-conversion SaaS landing page for a startup, focusing on clean design, user experience, and optimized performance to drive user engagement.",
@@ -128,5 +137,6 @@ const data: Project[] = [
     link: "https://sumz.fardeen.tech/",
     source: "https://github.com/Fardeen26/Article-Summarizer",
   },
+
 
 ];

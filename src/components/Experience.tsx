@@ -13,7 +13,7 @@ const Experience = () => {
     return (
         <div className='w-1/2 max-lg:w-full max-lg:px-20 max-sm:w-full max-sm:px-5 flex flex-col items-center mt-4 pb-8'>
             <span className='mb-3'>
-                <Title title='Experience & Achievements' />
+                <Title title='Experience' />
             </span>
             {
                 experienceData.map((exp: I_Experience, idx) => (
