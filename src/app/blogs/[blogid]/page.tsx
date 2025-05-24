@@ -34,7 +34,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
     return (
         <article className='w-full mt-40 max-sm:overflow-hidden max-sm:mt-28 max-[1025px]:px-4 max-[1285px]:px-4 max-lg:px-0 max-sm:px-0 flex flex-col gap-10 items-center pb-8'>
             <div className={`${bricolage_grotesque} px-80 max-[1285px]:px-60 max-sm:px-4 max-lg:px-20`}>
-                <h1 className='text-4xl max-sm:text-3xl font-bold'>
+                <h1 className='text-4xl max-sm:text-3xl font-bold mb-6'>
                     {blog.title}
                 </h1>
 
@@ -49,7 +49,7 @@ export default async function BlogDetailPage({ params }: PageProps) {
                 </div>
 
                 <div className='prose lg:prose-xl dark:prose-dark mt-7'>
-                    <div className='w-[57vw] max-lg:w-[80vw] max-sm:w-[87vw] !text-base' dangerouslySetInnerHTML={{ __html: blog.content }} />
+                    <div className='w-[57vw] max-lg:w-[80vw] max-sm:w-[92vw] !text-base' dangerouslySetInnerHTML={{ __html: blog.content }} />
                 </div>
             </div>
         </article>

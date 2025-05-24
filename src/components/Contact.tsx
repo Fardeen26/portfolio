@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from 'react'
 import { Link } from '@radix-ui/themes'
 import { FaXTwitter } from "react-icons/fa6";

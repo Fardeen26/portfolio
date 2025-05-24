@@ -1,7 +1,7 @@
 import { Blog } from '@/types/project'
 import BlogCard from './BlogCard'
 
-async function getBlogs() {
+export async function getBlogs() {
     try {
         const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/blogs`, {
             cache: 'no-store'
