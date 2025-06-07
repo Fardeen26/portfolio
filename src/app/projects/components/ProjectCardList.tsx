@@ -117,7 +117,7 @@ const data: Project[] = [
     title: "MemeHub",
     description: "MemeHub is a meme generator that allows users to create and share memes with a user-friendly interface and a wide range of templates.",
     techStack: ["Next.js", "Typescript", "framer-motion", "Tailwind CSS", "Magic UI"],
-    link: "https://memehub.fardeen.tech",
+    link: "https://www.memehub.mom/",
     source: "https://github.com/Fardeen26/meme-generator",
   },
 
@@ -137,6 +137,4 @@ const data: Project[] = [
     link: "https://sumz.fardeen.tech/",
     source: "https://github.com/Fardeen26/Article-Summarizer",
   },
-
-
 ];
