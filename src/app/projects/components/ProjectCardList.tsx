@@ -97,12 +97,12 @@ const data: Project[] = [
     source: "https://github.com/Fardeen26/lexicon",
   },
   {
-    logo: '/top-50.png',
-    title: "Life50",
-    description: "Life50 curates the top 50 life-changing books, habits, tools, and more—chosen by the internet and you. Share, upvote, and add what has transformed your life to inspire others.",
-    techStack: ["Next.js", "Supabase", "TypeScript", "Zod", "Tailwind CSS"],
-    link: "https://life50.fardeen.tech",
-    source: "https://github.com/Fardeen26/life50",
+    logo: '/credit-buddy.svg',
+    title: "Credit Buddy",
+    description: "Credit Buddy simplifies credit card queries with AI-powered insights, offering quick and reliable solutions for users to manage their finances better and make informed decisions effortlessly.",
+    techStack: ["Next.js", "Puppeteer", "Google Gemini", "TypeScript"],
+    link: "https://credit-buddy.vercel.app/",
+    source: "https://github.com/Fardeen26/gen-ai",
   },
   {
     logo: '/codify.png',
@@ -120,7 +120,6 @@ const data: Project[] = [
     link: "https://www.memehub.mom/",
     source: "https://github.com/Fardeen26/meme-generator",
   },
-
   {
     logo: '/malfoy.png',
     title: "SaaS Landing Page",
@@ -128,6 +127,14 @@ const data: Project[] = [
     techStack: ["Next.js", "TypeScript", "Shadcn", "motion", "Tailwind CSS"],
     link: "https://malfoy.fardeen.tech",
     source: "https://github.com/Fardeen26/malfoy",
+  },
+  {
+    logo: '/top-50.png',
+    title: "Life50",
+    description: "Life50 curates the top 50 life-changing books, habits, tools, and more—chosen by the internet and you. Share, upvote, and add what has transformed your life to inspire others.",
+    techStack: ["Next.js", "Supabase", "TypeScript", "Zod", "Tailwind CSS"],
+    link: "https://life50.fardeen.tech",
+    source: "https://github.com/Fardeen26/life50",
   },
   {
     logo: '/sumzsvg.svg',
