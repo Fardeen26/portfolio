@@ -101,7 +101,7 @@ const data: Project[] = [
     title: "Credit Buddy",
     description: "Credit Buddy simplifies credit card queries with AI-powered insights, offering quick and reliable solutions for users to manage their finances better and make informed decisions effortlessly.",
     techStack: ["Next.js", "Puppeteer", "Google Gemini", "TypeScript"],
-    link: "https://credit-buddy.vercel.app/",
+    link: "https://credit-buddy.fardeen.tech",
     source: "https://github.com/Fardeen26/gen-ai",
   },
   {
