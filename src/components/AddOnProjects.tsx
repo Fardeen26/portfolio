@@ -42,7 +42,7 @@ const data: Project[] = [
         title: "Codify",
         description: "An Add-On for Adobe Express that generates code snippets from images using AI technology. It allows users to create code snippets for their designs.",
         techStack: ["React", "Javascript", "Adobe Spectrum Components", "Adobe Express SDK", "CSS"],
-        link: "#",
+        link: "https://adobesparkpost.app.link/TR9Mb7TXFLb?addOnId=wl0487nnk",
         source: "#",
     }
 ];
