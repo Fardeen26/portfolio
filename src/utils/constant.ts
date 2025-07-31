@@ -11,7 +11,7 @@ export const experienceData: I_Experience[] = [
     },
     {
         company_link: "https://inagiffy.news/",
-        company_logo: "/inagiffy.png",
+        company_logo: "/Inagiffy.png",
         company_name: "Inagiffy",
         duration: "",
         job_title: "Full Stack Developer",
