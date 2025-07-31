@@ -2,7 +2,7 @@ import Skills from "@/components/Skills"
 import Experience from "@/components/Experience"
 import Education from "@/components/Education"
 import Contact from "@/components/Contact"
-import GitGraph from "./components/GitGraph"
+// import GitGraph from "./components/GitGraph"
 import AddOnProjects from "@/components/AddOnProjects"
 import HomeRouteBlogs from "@/components/HomeRouteBlogs"
 import InitialLanding from "./components/InitialLanding"
@@ -12,9 +12,7 @@ export default function Home() {
     <div className="max-[350px]:overflow-hidden mt-8 max-sm:mt-0">
       <InitialLanding />
 
-      <div className="w-full flex justify-center mt-12">
-        <HomeRouteBlogs />
-      </div>
+
 
       <div className="w-full flex justify-center">
         <AddOnProjects />
@@ -24,7 +22,11 @@ export default function Home() {
         <Experience />
       </div>
 
-      <GitGraph />
+      <div className="w-full flex justify-center mt-12">
+        <HomeRouteBlogs />
+      </div>
+
+      {/* <GitGraph /> */}
 
       <div className="w-full flex justify-center mt-12">
         <Skills />
