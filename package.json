@@ -42,6 +42,7 @@
     "react": "^18",
     "react-activity-calendar": "^2.7.1",
     "react-dom": "^18",
+    "react-github-calendar": "^4.5.9",
     "react-icons": "^5.3.0",
     "react-scroll": "^1.9.0",
     "resend": "^4.0.0",

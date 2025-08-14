@@ -1,18 +1,18 @@
-import Skills from "@/components/Skills"
-import Experience from "@/components/Experience"
-import Education from "@/components/Education"
-import Contact from "@/components/Contact"
-// import GitGraph from "./components/GitGraph"
-import AddOnProjects from "@/components/AddOnProjects"
-import HomeRouteBlogs from "@/components/HomeRouteBlogs"
+import dynamic from "next/dynamic"
+
+const Skills = dynamic(() => import("@/components/Skills"), { ssr: false });
+const Experience = dynamic(() => import("@/components/Experience"), { ssr: false });
+const Education = dynamic(() => import("@/components/Education"), { ssr: false });
+const Contact = dynamic(() => import("@/components/Contact"), { ssr: false });
+const GitGraph = dynamic(() => import("./components/GitGraph"), { ssr: false });
+const AddOnProjects = dynamic(() => import("@/components/AddOnProjects"), { ssr: false });
+const HomeRouteBlogs = dynamic(() => import("@/components/HomeRouteBlogs"), { ssr: false });
 import InitialLanding from "./components/InitialLanding"
 
 export default function Home() {
   return (
     <div className="max-[350px]:overflow-hidden mt-8 max-sm:mt-0">
       <InitialLanding />
-
-
 
       <div className="w-full flex justify-center">
         <AddOnProjects />
@@ -22,11 +22,13 @@ export default function Home() {
         <Experience />
       </div>
 
-      <div className="w-full flex justify-center mt-12">
+      <div className="w-full flex justify-center mt-8">
         <HomeRouteBlogs />
       </div>
 
-      {/* <GitGraph /> */}
+      <div className="w-full flex justify-center">
+        <GitGraph />
+      </div>
 
       <div className="w-full flex justify-center mt-12">
         <Skills />

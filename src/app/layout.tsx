@@ -6,8 +6,9 @@ import DarkModeProvider from "@/context/DarkModeContext";
 import { Toaster } from "sonner";
 import { Analytics } from '@vercel/analytics/react';
 import './globals.css'
-import ConditionalFooter from "./ConditionalFooter";
 import Provider from "@/context/Provider";
+import dynamic from "next/dynamic";
+const ConditionalFooter = dynamic(() => import("./ConditionalFooter"), { ssr: false });
 
 export const metadata: Metadata = {
   title: "fardeen",
