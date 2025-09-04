@@ -21,7 +21,7 @@ export default function HeroSection() {
                     </h1>
                 </div>
                 <div className="mt-8 flex gap-4">
-                    <Link href="#" target='_blank'>
+                    <Link href="https://cal.com/fardeentwt" target='_blank'>
                         <RainbowButton>
                             Book a meet
                         </RainbowButton>
