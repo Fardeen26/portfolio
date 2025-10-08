@@ -44,7 +44,7 @@ const data: Project[] = [
     },
     {
         logo: '/Paletify.png',
-        title: "Textify",
+        title: "Paletify AI",
         description: "An Add-On that generates color palettes using AI based on user ideas. mood or theme. It allows creators to instantly find cohesive colors for their designs.",
         techStack: [],
         link: "https://adobesparkpost.app.link/TR9Mb7TXFLb?addOnId=wg41j5048",

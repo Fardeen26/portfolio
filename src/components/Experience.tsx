@@ -19,12 +19,12 @@ const Experience = () => {
                 experienceData.map((exp: I_Experience, idx) => (
                     <MagicCard key={idx} className="cursor-pointer h-fit dark:shadow-2xl !bg-transparent border-none" gradientColor={`${isDarkMode ? '#262626' : 'rgba(197, 241, 241, 0.4)'}`}>
                         <div className={`${exp.job_title === "Freelance" ? 'max-sm:ml-1 max-lg:ml-1' : ''} flex w-full px-5 max-sm:px-0 max-sm:pr-1 py-3`}>
-                            <div className="w-24 flex items-center justify-center">
+                            <div className={`w-24 flex items-center justify-center max-sm:justify-start ${exp.company_logo === '/freelance-icon.webp' ? 'max-sm:!w-[79px]' : ''} ${exp.company_logo === '/stealth-startup.jpeg' ? 'max-sm:!w-[92px]' : ''}`}>
                                 <Link href={exp.company_link} target='_blank'>
-                                    <Image src={exp.company_logo} alt='company-logo' width={50} height={50} className='rounded-full' />
+                                    <Image src={exp.company_logo} alt='company-logo' width={50} height={50} className={`rounded-full`} />
                                 </Link>
                             </div>
-                            <div className="w-full">
+                            <div className="w-full text-start">
                                 <div className={`${exp.job_title === "Freelance" ? 'max-sm:ml-2 max-lg:ml-2' : ''}`}>
                                     <div className={`flex w-[41vw] max-lg:w-full max-sm:w-full !justify-between max-sm:items-center ${bricolage_grotesque}`}>
                                         <div className='text-lg !leading-4 mb-1 max-sm:text-base font-semibold'>{exp.job_title}</div>
