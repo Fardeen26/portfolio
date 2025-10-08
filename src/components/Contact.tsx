@@ -58,28 +58,28 @@ const Contact = () => {
 
     return (
         <div className='w-full px-64 max-[1285px]:px-52 max-lg:px-4 max-sm:px-2 flex flex-col items-center mt-6 pb-8'>
-            <Title title='Get in Touch' />
+            <Title title='Say Hello' />
 
             <div className={`w-full flex flex-col gap-3 mt-6 px-36 max-sm:px-4 ${bricolage_grotesque}`}>
                 <div>
-                    <h2 className='text-lg max-sm:text-base'>Have a Question? Let&apos;s Chat!</h2>
+                    <h2 className='text-lg max-sm:text-base'>x dm is recommended</h2>
                 </div>
                 <div className='flex gap-3 mt-2'>
-                    <Link href="https://cal.com/fardeen26/15min" target="_blank">
+                    <Link href="https://cal.com/fardeentwt/15min" target="_blank">
                         <button className='bg-[#4ADE80] text-black py-2 px-3 rounded-md flex items-center gap-2 text-sm max-sm:text-xs hover:bg-[#42bc6f]'>
-                            <SiLivechat className='h-[18px] w-[18px]' /> Book a meet
+                            <SiLivechat className='h-[18px] w-[18px]' /> book a meet
                         </button>
                     </Link>
 
                     <Link href="https://twitter.com/messages/compose?recipient_id=1596464580753911810" target="_blank">
                         <button className='bg-[#1D9BF0] text-white py-2 px-3 rounded-md flex items-center gap-2 text-sm max-sm:text-xs hover:bg-[#2e7bae]'>
-                            <FaXTwitter className='h-[18px] w-[18px]' /> Chat on Twitter
+                            <FaXTwitter className='h-[18px] w-[18px]' /> dm on x
                         </button>
                     </Link>
                 </div>
 
                 <div className='mt-6'>
-                    <h2 className='text-lg text-start max-sm:text-base'>Reach Out via Email</h2>
+                    <h2 className='text-lg text-start max-sm:text-base'>you can mail also</h2>
                 </div>
 
                 <div className="w-full flex justify-center">

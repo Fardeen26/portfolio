@@ -13,7 +13,8 @@ const ProjectCard = (props: Project) => {
     const { isDarkMode } = useDarkMode()
     return (
         <MagicCard className="cursor-pointer rounded-lg dark:shadow-2xl w-[45%] max-sm:w-full h-[310px] border-none !bg-transparent" gradientColor={`${isDarkMode ? '#262626' : 'rgba(197, 241, 241, 0.4)'}`}>
-            <ShineBorder className={`border h-full w-full relative rounded-lg flex flex-col justify-center items-start md:shadow-xl !bg-transparent !pointer-events-none`} color={["#FF9933", "#FFFFFF", "#138808"]}>
+            {/* <ShineBorder className={`border h-full w-full relative rounded-lg flex flex-col justify-center items-start md:shadow-xl !bg-transparent !pointer-events-none`} color={["#FF9933", "#FFFFFF", "#138808"]}> */}
+            <ShineBorder className={`border dark:border-white/20 border-black/20 h-full w-full relative rounded-lg flex flex-col justify-center items-start md:shadow-xl !bg-transparent !pointer-events-none`} color={["#", "#", "#"]}>
 
                 <div className='px-3'>
                     <Image src={props.logo} alt='project-logo' width={30} height={30} />
@@ -33,7 +34,7 @@ const ProjectCard = (props: Project) => {
                         ))
                     }
                 </div>
-                <div className='px-3 mt-3 !pointer-events-auto flex gap-1'>
+                <div className={`px-3 mt-3 !pointer-events-auto flex gap-1 ${props.techStack && props.techStack?.length > 0 ? 'mt-3' : 'mt-0'}`}>
                     {
                         props.link && (
                             <Link href={props.link} target='_blank'>
