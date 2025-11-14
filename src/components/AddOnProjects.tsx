@@ -31,7 +31,7 @@ const data: Project[] = [
         title: "GlowUp",
         description: "An image Editor that adds dynamic lighting and glow effects to images. It allows users to adjust light color, intensity, and placement to enhance their visuals.",
         techStack: [],
-        link: "https://adobesparkpost.app.link/TR9Mb7TXFLb?mode=private&claimCode=wi362jjg7:KP697XGS",
+        link: "https://adobesparkpost.app.link/TR9Mb7TXFLb?addOnId=wn2l8195i",
         source: "#",
     },
     {
@@ -67,3 +67,4 @@ const data: Project[] = [
         source: "#",
     }
 ];
+
