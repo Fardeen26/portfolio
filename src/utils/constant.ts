@@ -14,7 +14,7 @@ export const experienceData: I_Experience[] = [
         company_logo: "/adobe.png",
         company_name: "Adobe Inc.",
         duration: "2024 - present",
-        job_title: "3x Grant Recipient",
+        job_title: "4x Grant Recipient",
         description: ""
     },
     {
@@ -45,4 +45,5 @@ export const educationData: I_Education[] = [
         cgpa: 8.5,
         description: ""
     }
+
 ] 
