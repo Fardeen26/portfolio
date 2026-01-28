@@ -46,13 +46,14 @@ export default ProjectCardList;
 
 const data: Project[] = [
   {
-    logo: '/saloon-5.png',
-    title: "Enrich Salon Management",
-    description: "Enrich Hair Salon is a salon booking system with online payments and an admin dashboard for managing services and bookings.",
-    techStack: ["React", "MUI", "Tailwind CSS", "Razorpay", "Nodemailer", "React Charts", "Node.js", "Express.js", "MongoDB"],
-    link: "https://enrichsalon.fardeen.me",
-    source: "https://github.com/Fardeen26/enrich-salon-management",
+    logo: '/credit-buddy.svg',
+    title: "Credit Buddy",
+    description: "Credit Buddy simplifies credit card queries with AI-powered insights, offering quick and reliable solutions for users to manage their finances better and make informed decisions effortlessly.",
+    techStack: ["Next.js", "Puppeteer", "Google Gemini", "TypeScript"],
+    link: "https://creditbuddy.fardeen.me",
+    source: "https://github.com/Fardeen26/gen-ai",
   },
+  
   {
     logo: '/flick-ai.png',
     title: "Flick.AI",
@@ -62,12 +63,12 @@ const data: Project[] = [
     source: "https://github.com/Fardeen26/flick-ai",
   },
   {
-    logo: '/token-2.png',
-    title: "OrbitToken",
-    description: "An decentralized platform enables users launch their custom tokens, transfer tokens, view token balances, transfer SOL, and check account balances.",
-    techStack: ["React", "Web3.js", "TypeScript", "Recoil", "spl-token", "Tailwind CSS"],
-    link: "https://orbittoken.fardeen.me",
-    source: "https://github.com/Fardeen26/OrbitToken",
+    logo: '/memehub.png',
+    title: "MemeHub",
+    description: "MemeHub is a meme generator that allows users to create and share memes with a user-friendly interface and a wide range of templates.",
+    techStack: ["Next.js", "Typescript", "framer-motion", "Tailwind CSS", "Magic UI"],
+    link: "https://www.memehub.mom/",
+    source: "https://github.com/Fardeen26/meme-generator",
   },
   {
     logo: "/anon-4.png",
@@ -76,6 +77,14 @@ const data: Project[] = [
     techStack: ["Next.js", "Typescript", "Gemini", "MongoDB", "NextAuth", "Nodemailer", "Tailwind CSS", "Shadcn"],
     link: "https://ghostgram.fardeen.me",
     source: "https://github.com/Fardeen26/ghostgram",
+  },
+  {
+    logo: '/token-2.png',
+    title: "OrbitToken",
+    description: "An decentralized platform enables users launch their custom tokens, transfer tokens, view token balances, transfer SOL, and check account balances.",
+    techStack: ["React", "Web3.js", "TypeScript", "Recoil", "spl-token", "Tailwind CSS"],
+    link: "https://orbittoken.fardeen.me",
+    source: "https://github.com/Fardeen26/OrbitToken",
   },
   {
     logo: "/chat-icon.png",
@@ -93,14 +102,7 @@ const data: Project[] = [
     link: "https://lexicon.fardeen.me",
     source: "https://github.com/Fardeen26/lexicon",
   },
-  {
-    logo: '/credit-buddy.svg',
-    title: "Credit Buddy",
-    description: "Credit Buddy simplifies credit card queries with AI-powered insights, offering quick and reliable solutions for users to manage their finances better and make informed decisions effortlessly.",
-    techStack: ["Next.js", "Puppeteer", "Google Gemini", "TypeScript"],
-    link: "https://creditbuddy.fardeen.me",
-    source: "https://github.com/Fardeen26/gen-ai",
-  },
+  
   {
     logo: '/codify.png',
     title: "Codify",
@@ -110,21 +112,14 @@ const data: Project[] = [
     source: "https://github.com/Fardeen26/Codify",
   },
   {
-    logo: '/memehub.png',
-    title: "MemeHub",
-    description: "MemeHub is a meme generator that allows users to create and share memes with a user-friendly interface and a wide range of templates.",
-    techStack: ["Next.js", "Typescript", "framer-motion", "Tailwind CSS", "Magic UI"],
-    link: "https://www.memehub.mom/",
-    source: "https://github.com/Fardeen26/meme-generator",
+    logo: '/saloon-5.png',
+    title: "Enrich Salon Management",
+    description: "Enrich Hair Salon is a salon booking system with online payments and an admin dashboard for managing services and bookings.",
+    techStack: ["React", "MUI", "Tailwind CSS", "Razorpay", "Nodemailer", "React Charts", "Node.js", "Express.js", "MongoDB"],
+    link: "https://enrichsalon.fardeen.me",
+    source: "https://github.com/Fardeen26/enrich-salon-management",
   },
-  {
-    logo: '/malfoy.png',
-    title: "SaaS Landing Page",
-    description: "Crafted this high-conversion SaaS landing page for a startup, focusing on clean design, user experience, and optimized performance to drive user engagement.",
-    techStack: ["Next.js", "TypeScript", "Shadcn", "motion", "Tailwind CSS"],
-    link: "https://malfoy.fardeen.me",
-    source: "https://github.com/Fardeen26/malfoy",
-  },
+ 
   {
     logo: '/top-50.png',
     title: "Life50",
@@ -140,5 +135,13 @@ const data: Project[] = [
     techStack: ["React", "Redux", "Open AI", "Tailwind CSS"],
     link: "https://sumz-summarize.netlify.app",
     source: "https://github.com/Fardeen26/Article-Summarizer",
+  },
+  {
+    logo: '/malfoy.png',
+    title: "SaaS Landing Page",
+    description: "Crafted this high-conversion SaaS landing page for a startup, focusing on clean design, user experience, and optimized performance to drive user engagement.",
+    techStack: ["Next.js", "TypeScript", "Shadcn", "motion", "Tailwind CSS"],
+    link: "https://malfoy.fardeen.me",
+    source: "https://github.com/Fardeen26/malfoy",
   },
 ];

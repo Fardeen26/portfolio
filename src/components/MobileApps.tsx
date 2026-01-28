@@ -27,6 +27,14 @@ export default MobileApps;
 
 const data: Project[] = [
     {
+        logo: '/quranforwomen.png',
+        title: "Quran for Women",
+        description: "A mobile app for women that allows them to talk to personalized AI assit., read Quran, listen to Quran, and get daily reminders to read Quran and for prayers.",
+        techStack: ["React Native", "Open AI", "Supabase", "React Reanimated", "Node.js", "Typescript"],
+        link: "#",
+        source: "#",
+    },
+    {
         logo: '/flashfeed.png',
         title: "flashfeed",
         description: "A Social media mobile application excatly like instagram. user can post stories, view stories, post images, comment, like, bookmark etc.",
