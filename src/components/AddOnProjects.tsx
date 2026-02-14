@@ -28,8 +28,8 @@ export default AddOnProjects;
 const data: Project[] = [
     {
         logo: '/carousel-ai-logo.png',
-        title: "Carausel AI",
-        description: "Carousel AI allows you to generate carousel from prompt, blog, youtube video, tweet and pdf with the help of Ui and beautiful slides",
+        title: "Carousel AI",
+        description: "Carousel AI allows you to generate a carousel from a prompt, blog, youtube video, tweet, and pdf with the help of Ui and beautiful slides.",
         techStack: ['yt-dlp', 'Gemini', 'Playwright', 'Node.js', 'Express.js', 'Supabase', 'React', 'TypeScript'],
         link: "https://adobesparkpost.app.link/TR9Mb7TXFLb?mode=private&claimCode=w37k37392:XNZPEOG5",
         source: "#",
@@ -37,9 +37,9 @@ const data: Project[] = [
     {
         logo: '/designtocode2.png',
         title: "Design to Code",
-        description: "An Add-On that converts you designes in email ready editable HTML code for seamless, efficient email creation.",
+        description: "An Add-On that converts your designs into email-ready editable HTML code for seamless, efficient email creation.",
         techStack: ['React', 'Adobe Creative Cloud SDK', 'Canvas API', 'Node.js', 'Express.js', 'Supabase'],
-        link: "https://adobesparkpost.app.link/TR9Mb7TXFLb?addOnId=wn2l8195i",
+        link: "https://adobesparkpost.app.link/TR9Mb7TXFLb?mode=private&claimCode=w2h6kh569:R7W2ULD1",
         source: "#",
     },
     {
@@ -83,4 +83,5 @@ const data: Project[] = [
         source: "#",
     }
 ];
+
 
