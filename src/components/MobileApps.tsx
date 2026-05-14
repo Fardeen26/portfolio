@@ -31,7 +31,7 @@ const data: Project[] = [
         title: "Quran for Women",
         description: "A mobile app for women that allows them to talk to personalized AI assit., read Quran, listen to Quran, and get daily reminders to read Quran and for prayers.",
         techStack: ["React Native", "Open AI", "Supabase", "React Reanimated", "Node.js", "Typescript"],
-        link: "#",
+        link: "https://quranforwomen.fardeen.me",
         source: "#",
     },
     {
