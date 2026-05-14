@@ -30,6 +30,12 @@ export interface I_Experience {
     description: string
 }
 
+export interface I_YoutubeVideo {
+    /** 11-character id from youtube.com/watch?v=… */
+    videoId: string;
+    title?: string;
+}
+
 export interface DarkModeContextType {
     isDarkMode: boolean;
     toggleDarkMode: () => void;

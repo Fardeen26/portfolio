@@ -2,6 +2,7 @@ import dynamic from "next/dynamic"
 
 const Skills = dynamic(() => import("@/components/Skills"), { ssr: false });
 const Experience = dynamic(() => import("@/components/Experience"), { ssr: false });
+const YoutubeVideos = dynamic(() => import("@/components/YoutubeVideos"), { ssr: false });
 const Education = dynamic(() => import("@/components/Education"), { ssr: false });
 const Contact = dynamic(() => import("@/components/Contact"), { ssr: false });
 const GitGraph = dynamic(() => import("./components/GitGraph"), { ssr: false });
@@ -15,6 +16,10 @@ export default function Home() {
 
       <div className="w-full flex justify-center mt-8">
         <Experience />
+      </div>
+
+      <div className="w-full flex justify-center mt-8">
+        <YoutubeVideos />
       </div>
 
       <div className="w-full flex justify-center mt-8">

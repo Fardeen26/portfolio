@@ -1,4 +1,4 @@
-import { I_Education, I_Experience } from "@/types/project";
+import { I_Education, I_Experience, I_YoutubeVideo } from "@/types/project";
 
 export const experienceData: I_Experience[] = [
     {
@@ -14,8 +14,8 @@ export const experienceData: I_Experience[] = [
         company_logo: "/adobe.png",
         company_name: "Adobe Inc.",
         duration: "2024 - present",
-        job_title: "4x Grant Recipient",
-        description: ""
+        job_title: "Adobe Developer Champion",
+        description: "see the adobe work here: https://100xaddons.com"
     },
     {
         company_link: "https://x.com/fardeentwt",
@@ -46,4 +46,11 @@ export const educationData: I_Education[] = [
         description: ""
     }
 
-] 
+];
+
+/** Replace `videoId` with yours from the watch URL (`youtube.com/watch?v=VIDEO_ID`). */
+export const youtubeVideosData: I_YoutubeVideo[] = [
+    { videoId: "lm02Mowy9uo" },
+    { videoId: "2361QhkPWrk" },
+    { videoId: "p5qvmxwkg8k" },
+];

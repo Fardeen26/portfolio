@@ -35,7 +35,7 @@ const data: Project[] = [
         source: "#",
     },
     {
-        logo: '/designtocode2.png',
+        logo: '/designtocode.png',
         title: "Design to Code",
         description: "An Add-On that converts your designs into email-ready editable HTML code for seamless, efficient email creation.",
         techStack: ['React', 'Adobe Creative Cloud SDK', 'Canvas API', 'Node.js', 'Express.js', 'Supabase'],
