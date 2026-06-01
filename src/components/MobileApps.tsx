@@ -28,10 +28,26 @@ export default MobileApps;
 const data: Project[] = [
     {
         logo: '/quranforwomen.png',
-        title: "Quran for Women",
-        description: "A mobile app for women that allows them to talk to personalized AI assit., read Quran, listen to Quran, and get daily reminders to read Quran and for prayers.",
-        techStack: ["React Native", "Open AI", "Supabase", "React Reanimated", "Node.js", "Typescript"],
-        link: "https://quranforwomen.fardeen.me",
+        title: "Alyen - Stop Doomscrolling",
+        description: "Stop doomscrolling. Scroll ayahs, get trusted answers, prayer tracking and reminders & beautiful recitation, track rankings, create quotes..",
+        techStack: ["React Native", "Open Router", "Supabase", "React Reanimated", "Node.js", "Typescript"],
+        link: "https://www.aylen.site",
+        source: "#",
+    },
+    {
+        logo: '/naia.png',
+        title: "Naia",
+        description: "Discover pieces no one else has. From small makers, emerging brands, limited drops, and circular finds - all curated to your taste.",
+        techStack: ["React Native", "Supabase", "Redux Toolkit", "Open AI", "NativeWind", "AWS", "Shippo", "Mailgun", "Stripe"],
+        link: "https://naia.shop",
+        source: "#",
+    },
+    {
+        logo: '/gloww.png',
+        title: "Gloww - AI Image Enhancer",
+        description: "Gloww uses advanced AI to instantly fix lighting, enhance features, and separate subjects from backgrounds. Professional editing in a single tap.",
+        techStack: ["React Native", "Supabase", "Redux Toolkit", "Open AI", "NativeWind", "AWS", "Shippo", "Mailgun", "Stripe"],
+        link: "https://gloww.fardeen.me",
         source: "#",
     },
     {
@@ -42,12 +58,5 @@ const data: Project[] = [
         link: "https://x.com/fardeentwt/status/1969781520589340872",
         source: "https://github.com/Fardeen26/flashfeed",
     },
-    {
-        logo: '/naia.png',
-        title: "Naia Redesign",
-        description: "A platform for upcycled fashion where users send old clothes to designers, get unique redesigns, and discover sustainable styles. work in progress...",
-        techStack: ["React Native", "Supabase", "Redux Toolkit", "Open AI", "NativeWind", "AWS", "Shippo", "Mailgun", "Stripe"],
-        link: "https://naiaredesign.com/",
-        source: "#",
-    }
+    
 ];
