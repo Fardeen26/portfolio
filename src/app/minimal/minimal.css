@@ -1,0 +1,301 @@
+.minimal-page {
+  --minimal-text: #111;
+  --minimal-muted: #444;
+  --minimal-rule: #ccc;
+  background: #fff;
+  color: var(--minimal-text);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 1.55;
+  min-height: 100vh;
+  padding: 3rem 1.5rem 4rem;
+}
+
+html:has(.minimal-page),
+html:has(.minimal-page) body {
+  background: #fff !important;
+  color: #111 !important;
+}
+
+.minimal-page a {
+  color: var(--minimal-text);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.minimal-page a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.minimal-inner {
+  max-width: 38rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.minimal-header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.minimal-header-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.minimal-photo-wrap {
+  flex-shrink: 0;
+  width: 108px;
+  border-radius: 16px;
+  border: 1px solid var(--minimal-rule);
+  overflow: hidden;
+  line-height: 0;
+  margin-top: 10px;
+}
+
+.minimal-photo-wrap > span {
+  display: block !important;
+  line-height: 0;
+}
+
+.minimal-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: grayscale(100%);
+}
+
+.minimal-git-graph {
+  margin: 1.25rem 0 0.25rem;
+  width: 100%;
+}
+
+.minimal-git-graph-link {
+  display: block;
+  text-decoration: none;
+}
+
+.minimal-git-graph-link:hover {
+  text-decoration: none;
+}
+
+.minimal-git-graph svg text {
+  fill: var(--minimal-muted) !important;
+  font-family: Georgia, "Times New Roman", Times, serif !important;
+  font-size: 10px !important;
+}
+
+.minimal-git-graph .react-activity-calendar__legend-colors,
+.minimal-git-graph .react-activity-calendar__legend-level-detail {
+  display: none;
+}
+
+.minimal-name {
+  font-size: 1.35rem;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+
+.minimal-headline {
+  margin: 0.25rem 0 0;
+  font-size: 0.9rem;
+  color: var(--minimal-muted);
+}
+
+.minimal-credibility {
+  margin: 0.35rem 0 0;
+  font-size: 0.9rem;
+  color: var(--minimal-muted);
+}
+
+.minimal-rule {
+  border: none;
+  border-top: 1px solid var(--minimal-rule);
+  margin: 1.25rem 0;
+}
+
+.minimal-bio {
+  margin: 0.65rem 0 0;
+  font-size: 0.95rem;
+  color: var(--minimal-muted);
+}
+
+.minimal-cta {
+  margin: 0.75rem 0 0;
+  font-size: 0.95rem;
+}
+
+.minimal-links {
+  margin: 0.5rem 0 0;
+  font-size: 0.9rem;
+}
+
+.minimal-links a + a::before,
+.minimal-entry-links a + a::before {
+  content: " · ";
+  text-decoration: none;
+  color: var(--minimal-muted);
+}
+
+.minimal-section-title {
+  font-size: 0.85rem;
+  font-weight: normal;
+  letter-spacing: 0.12em;
+  text-transform: lowercase;
+  margin: 2.5rem 0 0.75rem;
+  color: var(--minimal-muted);
+}
+
+.minimal-entry {
+  margin-bottom: 1.5rem;
+}
+
+.minimal-entry:last-child {
+  margin-bottom: 0;
+}
+
+.minimal-entry-title {
+  font-weight: normal;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.minimal-entry-meta {
+  margin: 0.15rem 0 0;
+  font-size: 0.9rem;
+  color: var(--minimal-muted);
+}
+
+.minimal-entry-desc {
+  margin: 0.35rem 0 0;
+  font-size: 0.95rem;
+  color: var(--minimal-muted);
+}
+
+.minimal-entry-links {
+  margin: 0.35rem 0 0;
+  font-size: 0.9rem;
+}
+
+.minimal-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.minimal-list-item {
+  margin-bottom: 0.85rem;
+  font-size: 0.95rem;
+}
+
+.minimal-list-item:last-child {
+  margin-bottom: 0;
+}
+
+.minimal-list-date {
+  color: var(--minimal-muted);
+  font-size: 0.9rem;
+}
+
+.minimal-videos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.minimal-video {
+  display: block;
+  text-decoration: none;
+}
+
+.minimal-video:hover {
+  text-decoration: none;
+}
+
+.minimal-video-thumb {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border: 1px solid var(--minimal-rule);
+  filter: grayscale(100%);
+  transition: filter 0.2s ease;
+}
+
+.minimal-video:hover .minimal-video-thumb {
+  filter: grayscale(60%);
+}
+
+.minimal-video-label {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.85rem;
+  color: var(--minimal-muted);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.minimal-cta-footer {
+  margin-top: 2.5rem;
+}
+
+.minimal-all-posts {
+  margin-top: 0.75rem;
+}
+
+.minimal-show-more {
+  display: block;
+  margin-top: 0.25rem;
+  padding: 0;
+  border: none;
+  background: none;
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: var(--minimal-muted);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+
+.minimal-show-more:hover {
+  color: var(--minimal-text);
+  text-decoration-thickness: 2px;
+}
+
+.minimal-back {
+  display: block;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: var(--minimal-muted);
+}
+
+@media (max-width: 480px) {
+  .minimal-page {
+    padding: 2rem 1.25rem 3rem;
+    font-size: 15px;
+  }
+
+  .minimal-header {
+    gap: 1rem;
+  }
+
+  .minimal-photo-wrap {
+    width: 84px;
+  }
+
+  .minimal-name {
+    font-size: 1.2rem;
+  }
+
+  .minimal-videos {
+    grid-template-columns: 1fr;
+  }
+}
+
+.minimal-list-item-title {
+  text-transform: lowercase;
+}

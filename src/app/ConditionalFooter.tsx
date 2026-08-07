@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 
 const ConditionalFooter = () => {
     const pathname = usePathname();
-    const hideFooter = pathname.startsWith('/blogs');
+    const hideFooter = pathname.startsWith('/blogs') || pathname === '/minimal';
 
     return (
         <>

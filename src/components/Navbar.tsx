@@ -14,6 +14,10 @@ const Navbar = () => {
     const { isDarkMode, toggleDarkMode } = useDarkMode();
     const pathname = usePathname();
 
+    if (pathname === '/minimal') {
+        return null;
+    }
+
     return (
         <nav className='w-full py-6 flex justify-center fixed top-0 z-50'>
             <div className="rounded-full w-[850px] max-lg:w-[800px] max-[400px]:w-[345px] max-[450px]:w-[400px] max-[350px]:w-[330px] max-[321px]:w-[310px] px-2 py-1 bg-white bg-opacity-10 backdrop-blur-lg border dark:border-white/20 flex items-center justify-center dark:shadow-none shadow">
