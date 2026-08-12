@@ -48,22 +48,13 @@ export default ProjectCardList;
 
 const data: Project[] = [
   {
-    logo: '/credit-buddy.svg',
-    title: "Credit Buddy",
-    description: "Credit Buddy simplifies credit card queries with AI-powered insights, offering quick and reliable solutions for users to manage their finances better and make informed decisions effortlessly.",
-    techStack: ["Next.js", "Puppeteer", "Google Gemini", "TypeScript"],
-    link: "https://creditbuddy.fardeen.me",
-    source: "https://github.com/Fardeen26/gen-ai",
+    logo: '/hermes-agent.png',
+    title: "Hermes Agent",
+    description: "A privacy-first AI assistant for Telegram, powered by Ollama and secure local tools for everyday personal automation workflows.",
+    techStack: ["Python", "Ollama", "Telegram", "Hermes Agent", "Google APIs", "GitHub CLI"],
+    source: "https://github.com/Fardeen26/personal-hermes-agent",
   },
-  
-  {
-    logo: '/flick-ai.png',
-    title: "Flick.AI",
-    description: "An AI-Powered tool with 200+ users designed to refine your tweets with full customizations and make them stand out—because GPT just doesn’t get it.",
-    techStack: ["Next.js", "TypeScript", "Google Gemini", "Prisma", "PostgreSQL", "NextAuth", "Tailwind CSS"],
-    link: "https://flickai.fardeen.me",
-    source: "https://github.com/Fardeen26/flick-ai",
-  },
+
   {
     logo: '/memehub.png',
     title: "MemeHub",
@@ -71,6 +62,24 @@ const data: Project[] = [
     techStack: ["Next.js", "Typescript", "framer-motion", "Tailwind CSS", "Magic UI"],
     link: "https://memehub.fardeen.me",
     source: "https://github.com/Fardeen26/meme-generator",
+  },
+
+  {
+    logo: '/credit-buddy.svg',
+    title: "Credit Buddy",
+    description: "Credit Buddy simplifies credit card queries with AI-powered insights, offering quick and reliable solutions for users to manage their finances better and make informed decisions effortlessly.",
+    techStack: ["Next.js", "Puppeteer", "Google Gemini", "TypeScript"],
+    link: "https://creditbuddy.fardeen.me",
+    source: "https://github.com/Fardeen26/gen-ai",
+  },
+
+  {
+    logo: '/flick-ai.png',
+    title: "Flick.AI",
+    description: "An AI-Powered tool with 200+ users designed to refine your tweets with full customizations and make them stand out—because GPT just doesn’t get it.",
+    techStack: ["Next.js", "TypeScript", "Google Gemini", "Prisma", "PostgreSQL", "NextAuth", "Tailwind CSS"],
+    link: "https://flickai.fardeen.me",
+    source: "https://github.com/Fardeen26/flick-ai",
   },
   {
     logo: "/anon-4.png",

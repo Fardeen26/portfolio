@@ -61,7 +61,7 @@ const work = [
 const experience = [
   {
     role: "Founding Engineer",
-    org: "Naia Redesign",
+    org: "Naia",
     period: "Aug 2025 – present",
     link: "https://naiaredesign.com/",
     note: "Building product from zero — full stack, shipping weekly.",
