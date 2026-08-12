@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { prisma } from "@/lib/prisma";
 import { youtubeVideosData } from "@/utils/constant";
-import { formatDate } from "@/utils/formatdate";
 import { MinimalWorkList } from "./MinimalWorkList";
 import MinimalGitGraph from "./MinimalGitGraph";
 import type { Activity } from "react-activity-calendar";
